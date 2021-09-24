@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "saptaktw/endgame"
+    registry = "avinashs24/playjenkins"
     registryCredential = 'dockerhub'
     dockerImage = ""
   }
@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/saptaktakalkar/playjenkins.git'
+        git 'https://github.com/avinashs2401/playjenkins.git'
       }
     }
 
